@@ -1,35 +1,19 @@
-# my-vue3-tasukebata
+# プロジェクトタイトル
+農家さんと菜園愛好家を繋ぐ協力支援アプリ「たすけ畑」
+このアプリは、FirebaseとVue.jsを使用して作りました。
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+# HomePage.vue（src/components）
+アプリのホーム画面
+「農家さんはこちら」からInput.vue画面へ、「農家さんを探す」からOutput.vueへ遷移が可能
+# Input.vue（src/components）
+データ登録するための農家さんのデータ入力画面
+# Output.vue（src/components）
+入力された農家情報のデータをリスト形式で表示する出力画面
+# (src/assets)
+使用イラスト
+# 使用方法
+デプロイなどの操作はなにもいりません。
+URLにアクセスし実際に農家情報を入力することができます。また、その出力も確認可能です。
+ホームページの「農家さんはこちら」のリンクから農家情報を入力します。
+「この内容で掲載」ボタンを押すと出力画面に飛び農家情報のデータを確認することができます。
+出力画面はホームページの「農家さんを探す」からも閲覧可能です。
